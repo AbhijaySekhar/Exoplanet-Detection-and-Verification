@@ -19,7 +19,9 @@ In this project, I analysed NASA TESS photometric data to detect and characteris
 7. Verification - 'Astroquery' library was used to query the TESS Input Catalog and the NASA Exoplanet Archive to compare obtained results against peer-reviewed, published values.
 
 ## Results
-| Parameter | My result | Published Data (NASA Exoplanet Archive) | Agreement |
+| Parameter | Obtained result | Published Data (NASA Exoplanet Archive) | Agreement of obtained result with published data|
 |---|---|---|--|
-| Orbital Period | 6.2643 days | 6.2678 days | Within 0.006 % |
-| Transit Depth | 
+| Orbital Period | 6.2643 days | 6.2678 days | 0.006 % lower|
+| Transit Depth (Direct) | 247.5 ppm | 321 ppm |  22.9 % lower |
+| Transit Depth (Manual) | 202.6 ppm | 321 ppm | 36.9 % lower |
+| Estimated Planet Radius | 1.974 R🜨 | 1.998 R🜨 | 1.2% lower |
