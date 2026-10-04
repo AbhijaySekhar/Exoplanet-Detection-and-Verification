@@ -7,3 +7,10 @@ In this project, I analysed NASA TESS photometric data to detect and characteris
 **Target/Host Star:** TIC 261136679 (R = 1.15 R☉, Teff = 5992 K, M= 1.1 M☉)   
 **Exoplanet Name:** TOI-144.01  
 **Data source:** NASA TESS (Transiting Exoplanet Survey Satellite), accessed via the 'lightkurve' library in python.
+
+## Method
+
+1. **Data Retrieval** - Searched and downloaded TESS light curve data for the target from the MAST (Mikulski Archive for Space Telescopes) catalog. The 'lightkurve' library was used to read the downloaded file into python.
+2. **Detrending** - lc.flatten() command was used to flatten the light curve to remove long-term trends in stellar and instrumental signals.
+3. **Determining Orbital period**- A BLS (Box Least Squares) periodogram was applied to the flattened light curve to detect the periodic signal that was statistically the most convincing, hence determining the orbital period of the planet.
+4. 
