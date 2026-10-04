@@ -45,4 +45,4 @@ Although a discrepancy in transit depth was observed, my derived planet radius (
 
 ## Files
 
-- 
+- ['Exoplanet_Transit_Analysis.ipynb'](Exoplanet_Transit_Analysis.ipynb) - full analysis notebook
