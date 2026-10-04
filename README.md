@@ -17,3 +17,9 @@ In this project, I analysed NASA TESS photometric data to detect and characteris
 5. **Depth Measurement** - Transit depth was measured in two ways: (a) directly from the BLS fit, and (b) by manual comparison of the mean in-transit and out-of-transit flux.
 6. **Physical interpretation** - derived an estimate for the planet radius from the measured transit depth and known stellar radius, using the relation: sqrt(depth) = R_planet / R_star.
 7. Verification - 'Astroquery' library was used to query the TESS Input Catalog and the NASA Exoplanet Archive to compare obtained results against peer-reviewed, published values.
+
+## Results
+| Parameter | My result | Published Data (NASA Exoplanet Archive) | Agreement |
+|---|---|---|--|
+| Orbital Period | 6.2643 days | 6.2678 days | Within 0.006 % |
+| Transit Depth | 
