@@ -34,3 +34,11 @@ Transit depth was measured using two independent methods: Directly from the BLS 
 - **Possible flux dilution** - Several stars are present within 20-60 arc seconds of the target in the TESS catalogue, whose light would dilute the measured transit depth if it falls within the photometric aperture of the telescope. Official pipelines typically apply a dilution correction that this analysis did not.
 
 Although a discrepancy in transit depth was observed, my derived planet radius (1.974 R🜨) closely agrees with the published value (1.998 R🜨)- within 1.2 %. However, it could be a result of the square root relationship between transit depth and the radius smoothing out an underlying depth error, as opposed to extremely precise data processing. Therefore, although my obtained results were accurate, it cannot be said that the method used for the project is necessarily precise. To test if the method used is reliable across a range of signal strengths, the analysis could be extended by searching for additional transit signals in the same light curve or by applying the same pipeline to other TESS targets.
+
+## Tools used
+
+- Python
+- 'lightkurve' - Reading TESS data and light curve processing
+- 'astropy' - FITS handling, units
+- 'astroquery' - NASA Exoplanet Archive and TESS Input Catalog queries
+- 'numpy', 'matplotlib'- numerical analysis and plotting
