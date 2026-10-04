@@ -46,8 +46,7 @@ Although a discrepancy in transit depth was observed, my derived planet radius (
 ## Files
 
 - ['Exoplanet_Transit_Analysis.ipynb'](Exoplanet_Transit_Analysis.ipynb) - full analysis notebook  
-- ['Exoplanet detection and verification (Figures).pdf'](Exoplanet detection and verification (Figures).pdf) - plots
-
+- [Exoplanet detection and verification (Figures).pdf](Exoplanet%20detection%20and%20verification%20\(Figures\).pdf) - plots
 ## Reproducing this analysis
 
 pip install lightkurve astropy astroquery numpy matplotlib
