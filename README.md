@@ -13,4 +13,7 @@ In this project, I analysed NASA TESS photometric data to detect and characteris
 1. **Data Retrieval** - Searched and downloaded TESS light curve data for the target from the MAST (Mikulski Archive for Space Telescopes) catalog. The 'lightkurve' library was used to read the downloaded file into python.
 2. **Detrending** - lc.flatten() command was used to flatten the light curve to remove long-term trends in stellar and instrumental signals.
 3. **Determining Orbital period**- A BLS (Box Least Squares) periodogram was applied to the flattened light curve to detect the periodic signal that was statistically the most convincing, hence determining the orbital period of the planet.
-4. 
+4. **Phase folding** - The light curve was folded at the determined period so that all transit events could be combined into a single averaged profile.
+5. **Depth Measurement** - Transit depth was measured in two ways: (a) directly from the BLS fit, and (b) by manual comparison of the mean in-transit and out-of-transit flux.
+6. **Physical interpretation** - derived an estimate for the planet radius from the measured transit depth and known stellar radius, using the relation: sqrt(depth) = R_planet / R_star.
+7. Verification - 'Astroquery' library was used to query the TESS Input Catalog and the NASA Exoplanet Archive to compare obtained results against peer-reviewed, published values.
