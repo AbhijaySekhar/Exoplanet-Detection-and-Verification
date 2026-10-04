@@ -25,3 +25,8 @@ In this project, I analysed NASA TESS photometric data to detect and characteris
 | Transit Depth (Direct) | 247.5 ppm | 321 ppm |  22.9 % lower |
 | Transit Depth (Manual) | 202.6 ppm | 321 ppm | 36.9 % lower |
 | Estimated Planet Radius | 1.974 R🜨 | 1.998 R🜨 | 1.2% lower |
+
+## Discussion
+The measured orbital period was within 0.006 % of the published value, strongly confirming that the detected transit signal of TOI-144.01 was valid and accurate, ruling out the possibility of it being a noise signal.  
+
+Transit depth was measured using two independent methods: Directly from the BLS Fit (247.5 ppm), and manual comparison between in-transit and out-of-transit flux (202.6 ppm). The results from both methods gave a consistent qualitative picture, as they both agreed in order of magnitude. However, the transit depth directly derived from the BLS fit was much closer to the published value (22.9% lower) compared to the manual estimate (36.9% lower), which led me to use the former as the primary reported depth for radius calculation.
