@@ -42,3 +42,7 @@ Although a discrepancy in transit depth was observed, my derived planet radius (
 - 'astropy' - FITS handling, units
 - 'astroquery' - NASA Exoplanet Archive and TESS Input Catalog queries
 - 'numpy', 'matplotlib'- numerical analysis and plotting
+
+## Files
+
+- 
